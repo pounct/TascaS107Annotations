@@ -1,4 +1,4 @@
-package n2exercici1;
+package n3exercici1;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -66,8 +66,10 @@ public class Treballador implements Serializable {
 		return gson.toJson(this);
 
 	}
-
-	@EnFitxerJSON // ex2: @EnFitxerJSON(".\\treballador.json")
+	
+	// @EnFitxerJSON FOR DEFAULT DIRECTORI
+	
+	@EnFitxerJSON(directori = ".\\treballador.json")
 	public void toPathFile(String destination) {
 		System.out.println("toPathFile....");
 		try {

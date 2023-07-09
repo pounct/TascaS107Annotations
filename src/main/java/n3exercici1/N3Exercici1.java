@@ -1,8 +1,8 @@
-package n2exercici1;
+package n3exercici1;
 
 import java.lang.reflect.Method;
 
-public class N2Exercici1 {
+public class N3Exercici1 {
 
 	public static void main(String[] args) {
 

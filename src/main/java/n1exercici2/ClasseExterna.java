@@ -12,6 +12,7 @@ public class ClasseExterna {
 		this.treballador = treballador;
 	}
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 
 		Treballador treballadorOnline = new TreballadorOnline("nomto", "cognomto", 20, 60);

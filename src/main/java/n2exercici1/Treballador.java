@@ -68,7 +68,7 @@ public class Treballador implements Serializable {
 	}
 
 	@EnFitxerJSON // ex2: @EnFitxerJSON(".\\treballador.json")
-	public void toPathFile(String destination) {
+	public void jsonToPathFile(String destination) {
 		System.out.println("toPathFile....");
 		try {
 

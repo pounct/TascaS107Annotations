@@ -10,13 +10,13 @@ public class N2Exercici1 {
 
 		Method method;
 		try {
-			method = treballador.getClass().getMethod("toPathFile", String.class);
+			method = treballador.getClass().getMethod("jsonToPathFile", String.class);
 
 			EnFitxerJSON enFitxerJSON = method.getAnnotation(EnFitxerJSON.class);
 
 			String destination = enFitxerJSON.directori();
 
-			treballador.toPathFile(destination);
+			treballador.jsonToPathFile(destination);
 
 		} catch (NoSuchMethodException | SecurityException e) {
 
